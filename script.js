@@ -3,8 +3,14 @@
 let playerSelection = 'rock';
 let computerSelection = computerPlay();
 
-function computerPlay() {}
+function computerPlay() {
+  let arr = ['rock', 'paper', 'scissors'];
+  let randomArr = Math.floor(Math.random() *3);
+  return arr[randomArr] 
+  
+}
 
 function playGame(playerSelection, computerSelection) {}
 
 playGame(playerSelection, computerSelection);
+
