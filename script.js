@@ -5,12 +5,10 @@ let computerSelection = computerPlay();
 
 function computerPlay() {
   let arr = ['rock', 'paper', 'scissors'];
-  let randomArr = Math.floor(Math.random() *3);
-  return arr[randomArr] 
-  
+  let randomArr = Math.floor(Math.random() * 3);
+  return arr[randomArr];
 }
-
+console.log(computerPlay() ) ;
 function playGame(playerSelection, computerSelection) {}
 
 playGame(playerSelection, computerSelection);
-
